@@ -20,3 +20,9 @@ tensorflow-estimator==1.13.0
 
 >pip freeze | findstr tqdm
 tqdm==4.28.1
+
+
+jupyter notebook
+
+#needed to reinstall numpy to avoid errors when importing packages
+pip install --upgrade --force-reinstall numpy
