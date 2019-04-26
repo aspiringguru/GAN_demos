@@ -1,0 +1,22 @@
+https://www.datacamp.com/community/tutorials/generative-adversarial-networks
+
+
+pip install keras
+pip install matplotlib
+pip install tensorflow
+pip install tqdm
+
+>pip freeze | findstr Keras
+Keras==2.2.4
+Keras-Applications==1.0.7
+Keras-Preprocessing==1.0.9
+
+>pip freeze | findstr matplot
+matplotlib==3.0.2
+
+>pip freeze | findstr tensorflow
+tensorflow==1.13.1
+tensorflow-estimator==1.13.0
+
+>pip freeze | findstr tqdm
+tqdm==4.28.1
